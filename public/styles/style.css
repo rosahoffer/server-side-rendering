@@ -1,0 +1,251 @@
+/* --GLOBAL-- */
+
+:root {
+  --primary: #CFAAC9;
+  --secondary: #8E6788;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.4;
+  font-weight: 100;
+  background-color: var(--primary);
+  color: white;
+}
+
+h1{
+  font-size: 6rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -10px
+}
+
+h2{
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -2px
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+p{
+  font-size: 1rem;
+  line-height: 1.8rem;
+  font-weight: 200;
+}
+
+.top-head{
+  text-align: center;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.top-head > img{
+  max-width: 18rem;
+}
+
+.top-head > h3{
+  margin-top: -1rem;
+}
+
+.line-dark-purple{
+  border: 1.5px solid var(--secondary);
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  max-width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-head > h1{
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+}
+
+.top-head > p{
+  padding-bottom: 2rem;
+}
+
+.top-head > a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--secondary);
+  font-weight: 700;
+  letter-spacing: 7px;
+}
+
+.arrow-white-line{
+  padding-top: 3rem
+}
+
+/* ABOUT */
+
+.top-about{
+  text-align: center;
+  padding: 0rem 1rem 5rem 1rem;
+}
+
+.top-about > div > p{
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  margin-top: -1rem;
+}
+
+.contact-me{
+  padding-top: 2rem;
+}
+
+.fa {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+.fa:hover {
+  background-color: white;
+  color: #8E6788;
+  transition-duration: 0.5s;
+}
+
+.fa-facebook {
+  background-color: var(--secondary);
+  border-radius: 50%;
+  text-align: center;
+}
+
+.fa-snapchat {
+  background-color: var(--secondary);
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+  background-color: var(--secondary);
+  border-radius: 50%;
+}
+
+/* BREAKPOINTS */
+
+@media (min-width:60rem){
+
+  h1{
+    font-size: 7rem;
+  }
+  
+  h3{
+    font-size: 1.8rem;
+  }
+  
+  p{
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+  }
+
+  .top-head{
+    text-align: left;
+    padding: 15rem 0rem 0rem 10rem;
+    max-width: 30rem;
+  }
+
+  .line-dark-purple{
+    max-width: 10rem;
+    margin-left: 0;
+  }
+
+  .top-head > img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10rem 9rem 0rem 0rem;
+    padding-left: 1rem;
+    min-width: 20rem;
+  }
+
+  .top-about{
+    text-align: left;
+    padding: 10rem 0rem 10rem 10rem;
+  }
+}
+
+@media (min-width:80rem){
+
+  h1{
+    font-size: 8rem;
+  }
+  
+  h3{
+    font-size: 2rem;
+  }
+  
+  p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+
+  }
+
+  .top-head{
+    padding: 15rem 0rem 0rem 15rem;
+    max-width: 40rem;
+  }
+
+  .top-head > img{
+    margin: 10rem 14rem 0rem 0rem;
+    max-width: 25rem;
+  }
+
+  .top-about{
+    padding: 10rem 0rem 10rem 15rem;
+    max-width: 50rem;
+  }
+
+  .top-about {
+    padding: 10rem 0rem 10rem 15rem;
+    max-width: 50rem;
+  }
+
+}
+
+@media (min-width:100rem){
+
+  h1{
+    font-size: 9em;
+  }
+
+  h2{
+    font-size: 4rem;
+  }
+  
+  h3{
+    font-size: 2.3rem;
+  }
+
+  .top-head{
+    padding: 20rem 0rem 0rem 20rem;
+    max-width: 50rem;
+  }
+
+  .top-head > img{
+    margin: 10rem 19rem 0rem 0rem;
+    max-width: 28rem;
+  }
+
+  .top-about{
+    padding: 10rem 0rem 10rem 20rem;
+  }
+
+  .top-about > div > p{
+    font-size: 4rem;
+    margin-top: -2.5rem;
+  }
+}
