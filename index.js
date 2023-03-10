@@ -11,7 +11,7 @@ app.set('views', './views')
 // Gebruik de map 'public' voor statische resources
 app.use(express.static('public'))
 
-const url = ('https://whois.fdnd.nl/api/v1/member/rosa-hoffer')
+const url = ('https://api.buurtcampus-oost.fdnd.nl/api/v1/stekjes')
 const data = await fetch (url).then ((response)=> response.json())
 
 fetch(url).then((response) => response.json()).then((data) => console.log(data));
