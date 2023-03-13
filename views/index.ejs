@@ -2,9 +2,9 @@
 
 <main>
     <section class="wrapper-contain">
-        <!-- <section class="header-top">
+        <section class="header-top">
             <nav>   
-                <img src="" alt="Logo PlantSwap">
+                <img src="images/plantswap-logo-green.png" alt="Logo PlantSwap">
                 <ul>
                     <li><a href="">Over Ons</a></li>
                     <li><a href="">Stekjes</a></li>
@@ -12,49 +12,42 @@
                     <li><a href="">Stekje Aanmelden</a></li>
                 </ul>   
             </nav>
-        </section> -->
-        <section class="intro-contain" id="Intro">
+        </section>
+        <section class="intro-contain" id="intro">
             <h1>PlantSwap Amsterdam</h1>
             <p>Heb jij een of meerdere plantenstekjes over en zou je die graag willen ruilen voor een nieuw plantje? Bekijk hieronder ons aanbod.</p>
             <a href="#">Bekijk Stekjes</a>
             <a href="#">Lees Meer</a>
             <svg class="blue-points"
-                width="62" height="208" viewBox="0 0 62 208" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="2" cy="9" r="9" fill="#333467"/>
-                <circle cx="2" cy="47" r="9" fill="#333467"/>
-                <circle cx="2" cy="85" r="9" fill="#333467"/>
-                <circle cx="2" cy="123" r="9" fill="#333467"/>
-                <circle cx="2" cy="161" r="9" fill="#333467"/>
-                <circle cx="2" cy="199" r="9" fill="#333467"/>
-                <circle cx="53" cy="9" r="9" fill="#333467"/>
-                <circle cx="53" cy="47" r="9" fill="#333467"/>
-                <circle cx="53" cy="85" r="9" fill="#333467"/>
-                <circle cx="53" cy="123" r="9" fill="#333467"/>
-                <circle cx="53" cy="161" r="9" fill="#333467"/>
-                <circle cx="53" cy="199" r="9" fill="#333467"/>
-            </svg>                
+                width="8" height="144" viewBox="0 0 8 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="2" cy="5.5" rx="6" ry="5.5" fill="#333467"/>
+                <circle cx="2" cy="32" r="6" fill="#333467"/>
+                <ellipse cx="2" cy="58.5" rx="6" ry="5.5" fill="#333467"/>
+                <circle cx="2" cy="85" r="6" fill="#333467"/>
+                <ellipse cx="2" cy="111.5" rx="6" ry="5.5" fill="#333467"/>
+                <circle cx="2" cy="138" r="6" fill="#333467"/>
+            </svg>
+                             
         </section>
-        <section class="new-collection-contain">
+        <section class="new-collection-contain" id="nieuwe stekjes">
             <h3>Nieuwe Stekjes</h3>
             <% stekjes.forEach(stekje => { %>
-            <ul>
-                <li>
-                    <img src="images/PlantSwap-logo-bruin.png" width="200" height="200">
-                    <h4> <%= stekje.naam %> </h4>
-                    <p> <%= stekje.aanmelddatum %> </p>
-                </li>
-            </ul>
+                <img src="images/placeholder-image.png" width="200" height="200">
+                <h4> <%= stekje.naam %> </h4>
+                <p> <%= stekje.aanmelddatum %> </p>
             <% }) %>
 
-            <svg width="87" height="539" viewBox="0 0 87 539" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M87 1H9V539.5" stroke="#4E7141" stroke-width="2"/>
-                <circle cx="9" cy="115" r="9" fill="#333467"/>
-                <circle cx="9" cy="173" r="9" fill="#333467"/>
-                <circle cx="9" cy="231" r="9" fill="#333467"/>
-                <circle cx="9" cy="289" r="9" fill="#333467"/>
-                <circle cx="9" cy="347" r="9" fill="#333467"/>
-                <circle cx="9" cy="405" r="9" fill="#333467"/>
+            <svg class="blue-points-stroke"
+                width="51" height="298" viewBox="0 0 51 298" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M55 1H6V340" stroke="#4E7141" stroke-width="2"/>
+                <ellipse cx="6" cy="72.5" rx="6" ry="5.5" fill="#333467"/>
+                <circle cx="6" cy="109" r="6" fill="#333467"/>
+                <circle cx="6" cy="182" r="6" fill="#333467"/>
+                <circle cx="6" cy="146" r="6" fill="#333467"/>
+                <ellipse cx="6" cy="218.5" rx="6" ry="5.5" fill="#333467"/>
+                <circle cx="6" cy="255" r="6" fill="#333467"/>
             </svg>
+                
         </section>
         <section class="slide-image-right">
             <img src="images/pexels-maria-orlova-4913376.jpg">

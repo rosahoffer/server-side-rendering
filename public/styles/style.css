@@ -20,40 +20,63 @@ body{
 }
 
 h1{
-  font-size: 5rem;
+  font-size: 2.5rem;
   color: var(--primary);
 }
 
 h2{
-  font-size: 4.375rem;
+  font-size: 2.5rem;
   color: var(--primary);
 }
 
 h3{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--primary-font-color);
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   font-weight: 100;
 }
 
 p{
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--primary-font-color);
-  line-height: 2rem;
+  line-height: 1.8rem;
 }
 
-.wrapper-contain{
-  display: flex;
+/* HEADER  */
+
+.header-top > nav > img{
+  width: 10em;
+  padding: 3rem 0rem 0rem 3rem;
 }
+
+/* NAV BAR  */
+
+.header-top ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-left: 3rem;
+  gap: 3rem;
+}
+
+.header-top a{
+  color: var(--primary-font-color);
+  text-decoration: none;
+}
+
+.header-top a:hover{
+  color: var(--tertiary);
+}
+
+/* INTRO  */
 
 .intro-contain{
-  padding-left: 10rem;
+  padding-left: 3rem;
 }
 
 .intro-contain > p{
   padding-bottom: 3rem;
-  max-width: 35rem;
 }
 
 .intro-contain > a:nth-child(3){
@@ -81,19 +104,32 @@ p{
 }
 
 .intro-contain > a:nth-child(4):hover{
-  background-color: white;
+  background-color: var(--tertiary);
   border: solid 1.5px var(--tertiary);
-  color: var(--tertiary);
+  color: white;
   transition: ease-in 0.2s;
+}
+
+.slide-image-right > img{
+  display: none;
 }
 
 .blue-points{
   position: absolute;
-  top: 20rem;
+  top: 15rem;
   left: 0;
 }
 
 .new-collection-contain{
-  display: flex;
-  flex-direction: column;
+  padding: 5rem 0rem 0rem 3rem;
+}
+
+.new-collection-contain > h3{
+  padding-bottom: 1rem;
+}
+
+.blue-points-stroke{
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
