@@ -11,17 +11,20 @@ app.set('views', './views')
 // Gebruik de map 'public' voor statische resources
 app.use(express.static('public'))
 
-const url = ('https://api.buurtcampus-oost.fdnd.nl/api/v1/stekjes')
-const data = await fetch (url).then ((response)=> response.json())
-
-fetch(url).then((response) => response.json()).then((data) => console.log(data));
-
 // Maak een route voor de index
-app.get('/', function (req, res) {
-
-  // res.send('Hello World!')
+app.get('/', async function (req, res) {
+  const url = ('https://api.buurtcampus-oost.fdnd.nl/api/v1/stekjes?first=3')
+  const data = await fetch (url).then ((response)=> response.json())  
   res.render('index', data)
 })
+
+// Route voor index 2
+app.get('/index2', async function (req, res) {
+  const url = ('https://api.buurtcampus-oost.fdnd.nl/api/v1/stekjes')
+  const data = await fetch (url).then ((response)=> response.json()) 
+  res.render('index2', data)
+})
+
 
 // Stel het poortnummer in waar express op gaat luisteren
 app.set('port', process.env.PORT || 8000)
