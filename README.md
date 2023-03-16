@@ -1,4 +1,4 @@
-# Visitekaartje
+# PlantSwap - Buurtcampus Oost
 * Een digitaal visitekaartje om mij als frontender mijzelf voor te stellen.
 
 ![tablet_laptop_and_smartphone_mockup_profile-card](https://user-images.githubusercontent.com/112861375/218085917-90d08534-4c8c-492f-a7a3-b1517b1c46f6.png)
