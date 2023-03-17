@@ -1,7 +1,7 @@
-# Visitekaartje
-* Een digitaal visitekaartje om mij als frontender mijzelf voor te stellen.
+# PlantSwap - Buurtcampus Oost
+Ontwerp en ontwikkel een server-side website voor Buurtcampus-Oost:
 
-![tablet_laptop_and_smartphone_mockup_profile-card](https://user-images.githubusercontent.com/112861375/218085917-90d08534-4c8c-492f-a7a3-b1517b1c46f6.png)
+![devices-mockup-plantswap](https://user-images.githubusercontent.com/112861375/225862028-ab54720d-d89a-4881-b486-0296912c4868.png)
 
 ## Inhoudsopgave
 
@@ -14,10 +14,12 @@
 
 ## Beschrijving
 
-Redesign mijn visitekaartje op basis van een bestaande API.
+User stories uitwerken op basis van dynamische data uit een API. Vertrekpunt is een overzichtspagina van de belangrijkste content met verwijzingen naar detailpagina's.
+
+* User story:  Als buurtbewoner wil ik kunnen zien welke stekjes momenteel in de stekjeskast zitten, zodat ik kan overwegen een stekje om te ruilen
 
 ## Kenmerken
-Ik heb gewerkt met Node, HTML en CSS
+Ik heb gewerkt met Node, HTML, CSS en JS
 
 ## Installatie
 
@@ -25,13 +27,13 @@ Ik heb NPM en Node geïnstalleerd door middel van npm install en npm install nod
 
 ## Gebruik
 
-Ik heb dit gebruikt voor een schoolopdracht, in de toekomst wil ik dit verder uitwerken om het aan mijn netwerk te kunnen laten zien.
+Deze website wordt gebruikt voor het bezoeken van het nieuwe project PlantSwap, bedacht door de Buurtcampus-Oost.
 
 ## Bronnen
 
 https://nodejs.org/en/docs/ | Voor de documentatie van node
 
-https://whois.fdnd.nl/ | Voor de api van 'WhoisFdnd'
+https://api.buurtcampus-oost.fdnd.nl/api/v1/stekjes | Voor de api van de stekjes
 
 ## Licentie
 
