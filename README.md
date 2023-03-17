@@ -1,5 +1,6 @@
 # PlantSwap - Buurtcampus Oost
 Ontwerp en ontwikkel een server-side website voor Buurtcampus-Oost:
+![devices-mockup-plantswap](https://user-images.githubusercontent.com/112861375/225861446-f5d4ab13-75b3-4972-bcd9-0abb18ac4613.png)
 
 ## Inhoudsopgave
 
