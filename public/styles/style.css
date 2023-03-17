@@ -300,6 +300,7 @@ dialog::backdrop{
 
 .new-collection-contain h4{
   color: var(--secondary);
+  max-width: 200px;
 }
 
 .new-collection-contain p{
@@ -344,6 +345,7 @@ dialog::backdrop{
 
 .collection-contain h4{
   color: white;
+  max-width: 200px;
 }
 
 .white-points{
@@ -432,7 +434,7 @@ dialog::backdrop{
 @media (min-width:60rem){
 
   h1{
-    font-size: 5rem;
+    font-size: 4rem;
   }
   
   h2{
@@ -444,13 +446,14 @@ dialog::backdrop{
   }
   
   p{
-    font-size: 1.4rem;
-    line-height: 2.4rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
   }
 
   /* HOME PAGE  */
 
   .header-top{
+    display: flex;
     padding-left: 5.5rem;
   }
 
@@ -458,7 +461,11 @@ dialog::backdrop{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    max-width: 50rem;
+    max-width: 60rem;
+  }
+
+  .header-top img{
+    margin-right: 5rem;
   }
 
   .header-top li{
@@ -492,9 +499,17 @@ dialog::backdrop{
     font-size: 1.1rem;
   }
 
+  .slide-image-right{ 
+    position: relative;
+    width: 40%;
+    height: 100vh;
+    margin-top: -5%;
+  }
+
   .slide-image-right > img{
+    width: 100%;
+    height: 100%;
     display: block;
-    margin-top: -10rem;
   }
 
   .wrapper-contain{
@@ -504,8 +519,8 @@ dialog::backdrop{
 
   .blue-points-stroke{
     position: absolute;
-    top: 0;
-    left: 50.5rem;
+    bottom: 0;
+    left: -51px
   }
 
   /* PAGE 2  */
@@ -562,16 +577,21 @@ dialog::backdrop{
 
   .collection-contain > div{
     display: flex;
-    gap: 3rem;
+    gap: 5rem;
+    flex-wrap: wrap;
   }
 
   .collection-contain > div{
     text-align: center;
   }
 
+  .collection-contain > div > div > p{
+    font-size: 1.1rem;
+  }
+
   .contact-contain{
     display: flex;
-    padding: 5rem 8rem 10rem 8rem;
+    padding: 5rem 8rem 5rem 8rem;
   }
 
   .contact-form{
@@ -580,7 +600,7 @@ dialog::backdrop{
   }
 
   .contact-facts{
-    padding: 12rem 0rem 0rem 10rem;
+    padding: 13rem 0rem 0rem 10rem;
   }
 
   /* BUTTON STEKJE AANMELDEN  */
